@@ -1,0 +1,143 @@
+body {
+	font-family: 'Montserrat', sans-serif;
+	background-color: skyblue;
+	background: url(https://images.wallpapersden.com/image/download/moon-space-minimal_a2ZpaWWUmZqaraWkpJRmbmdlrWZlbWU.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(https://images.wallpapersden.com/image/download/moon-space-minimal_a2ZpaWWUmZqaraWkpJRmbmdlrWZlbWU.jpg); 
+}
+
+
+h1 {
+	display: flex;
+	justify-content: center;
+	font-family: 'Montserrat', sans-serif;
+	color: white;
+	padding-top: 10px;
+
+
+}
+
+hr {
+	width: 100px;
+	border-color: purple;
+}
+
+hr:hover {
+	 border-color: grey;
+}
+
+#container {
+	width: 320px;
+	height: 520px;
+	background-color: #eaedef;
+	margin: 0 auto;
+	position: relative;
+	margin-top: 50px;
+	border-radius: 25px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 1px 15px 0 rgba(0, 80, 243, 1);
+}
+
+#result {
+		height: 120px;
+
+}
+
+#history {
+	text-align: right;
+	height: 20px;
+	margin: 0 20px;
+	padding-top: 20px;
+	font-size: 0.9rem;
+	color: #919191;
+	font-style: italic;
+
+}
+
+#output {
+	text-align: right;
+	height: 60px;
+	margin: 10px 20px;
+	font-size: 30px;	
+}
+
+#keyboard {
+	height: 400px;
+	width: 300px;
+}
+
+.operator, .number, .empty{
+	width: 50px;
+	height: 50px;
+	margin: 10px;
+	float: right;
+	border-radius: 50%;
+	color: black;
+	border-width: 0;
+	box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.1), 0 1px 1px 0 rgba(0, 157, 175, 0.3);
+	font-size: 1rem;
+	font-weight: bold;
+}
+
+.number, .operator {
+	cursor: pointer;
+}
+
+.operator:active, .number:active {
+	font-size: 0.7rem;
+}
+
+.operator:focus, .number:focus, .empty:focus {
+	outline: 0;
+}
+
+button:nth-child(1) {
+	color: gray;
+	font-size: 20px;
+	background-color: #E6E6E6;
+}
+
+button:nth-child(2) {
+	color: gray;
+	font-size: 20px;
+	background-color: #E6E6E6;
+}
+
+button:nth-child(3) {
+	color: gray;
+	font-size: 20px;
+	background-color: #E6E6E6;
+}
+
+button:nth-child(4) {
+	color: white;
+	font-size: 20px;
+	background-color: #20b2aa;
+}
+
+button:nth-child(8) {
+	color: white;
+	font-size: 20px;
+	background-color: #ffa500;
+}
+
+button:nth-child(12) {
+	color: white;
+	font-size: 20px;
+	background-color: #f08080;
+}
+
+button:nth-child(16) {
+	color: white;
+	font-size: 20px;
+	background-color: #7d93e0;
+}
+
+button:nth-child(20) {
+	color: white;
+	font-size: 20px;
+	background-color: #9477af;
+}
+
